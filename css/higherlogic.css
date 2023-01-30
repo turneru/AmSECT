@@ -1,0 +1,344 @@
+body {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+	font-family: 'Red Hat Display', sans-serif !important;
+	color: #58595b !important;
+	background: #ffffff !important;
+	letter-spacing: 0;
+	line-height: 30px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0 !important;
+	margin-bottom: 2px !important;
+	font-weight: 900 !important; 
+	font-family: 'Red Hat Display', sans-serif !important;}
+
+h1 {
+	font-size: 40px !important;
+	line-height: 50px !important;
+	color: #d51e46 !important;
+	margin-bottom: 12px !important;
+}
+
+h2 {
+	font-size: 25px !important;
+	line-height: 30px !important;
+	color: #679cd3 !important;
+}
+
+h3 {
+	font-size: 25px !important;
+	line-height: 30px !important;
+	color: #d51e46 !important;
+	font-weight: 500 !important;
+	font-style: italic !important;
+}
+
+h4 {
+	font-size: 25px !important;
+	line-height: 30px !important;
+	color: #58595b !important;
+	text-transform: uppercase !important;
+}
+
+p {
+	margin-bottom: 40px;
+}
+
+#InteriorPageTitle .svg-overlay-container > div {
+	max-width: 1300px !important;
+}
+
+#PageTitleH1 {
+    margin: 0 auto !important;
+    max-width: 1300px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 58px !important;
+    text-transform: uppercase;
+    line-height: normal !important;
+}
+
+body.ribbit .row-wide {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+body.ribbit a, body.ribbit a:link, body.ribbit a:visited {
+  	color: #679cd3;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+body.ribbit a:hover {
+	color: #679cd3;
+	text-decoration: none;}
+
+ul {
+	list-style: outside; 
+}
+
+ol {
+	list-style: decimal outside; 
+}
+
+ol, ul {
+	padding-left: 0;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  	margin: 0 0 34px 1rem;
+}
+
+ul ul {
+    list-style: circle;
+}
+
+li {
+  margin-bottom: 2px; 
+}
+
+#MainCopy_ContentWrapper ul {
+    list-style-type: none;
+}
+
+#MainCopy_ContentWrapper ul li::before {
+    content: "\2022";
+    color: #d51e46;
+    font-weight: 900;
+    padding: 0 10px 0 0px;
+}
+
+body.ribbit.interior #MainCopy_ContentWrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*Buttons*/
+.btn, body.ribbit :not(.no-theme) .btn-primary, body.ribbit :not(.no-theme) .btn.btn-primary {
+    border-color: #D51E46;
+    transition: none;
+    display: inline-block;
+    padding: 10px 20px !important;
+    color: #d51e46 !important;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    border: 1px solid #d51e46;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-weight: 700 !important;
+}
+.btn:hover, .btn:active, .btn:focus,
+body.ribbit :not(.no-theme) .btn-primary:hover, body.ribbit :not(.no-theme) .btn-primary:focus, body.ribbit :not(.no-theme) .btn-primary:active {
+    color: #ffffff !important;
+    border-color: #d51e46 !important;
+    background-color: #d51e46 !important;
+    text-decoration: none;
+    outline: 0;
+}
+
+/*Navigaition*/
+body.ribbit:not(.interior).bodyBackground {
+    background: #ffffff;
+}
+
+#MPOuterHeader {
+	margin-top: 50px;
+    margin-bottom: 50px;
+    background: #fff;
+}
+
+#MPOuterHeader > .col-.md-12 {
+	padding: 0;
+}
+
+/*Navigaition*/
+body.ribbit #NAV {
+    background: #51449b !important;
+    border-color: #fff !important;
+    height: 50px;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+body.ribbit #NAV #MPButtonBar nav.navbar.navbar-default {
+    border: none;
+    background: #51449b !important;
+    height: 50px;
+}
+
+#RibbitWelcome .Login .btn-primary, #CreateBtnWrapper .btn-primary {
+    color: #FFFFFF !important;
+    background-color: #51449b !important;
+    border-color: #51449b !important;
+    text-transform: none;
+    font-weight: 400 !important;
+    font-family: 'Red Hat Display', sans-serif !important;
+    outline: none;
+}
+
+#RibbitWelcome .Login .btn-primary:hover, #RibbitWelcome .Login .btn-primary:focus, #RibbitWelcome .Login .btn-primary:active,
+#CreateBtnWrapper .btn-primary:hover, #CreateBtnWrapper .btn-primary:focus, #CreateBtnWrapper .btn-primary:active{
+    color: #FFFFFF !important;
+    background-color: #51449b;
+    border-color: #51449b;
+	font-weight: 900;
+	background: none;
+	box-shadow: none;
+    outline: none;
+}
+
+body.ribbit #MPButtonBar>nav>div.collapse.navbar-collapse.navbar-ex1-collapse {
+    width: 100%;
+    background: #51449b;
+	height: 50px !important;
+}
+
+body.ribbit .navbar, body.ribbit .navbar-default .navbar-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+body.ribbit #NAV .navbar-nav>li>a {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+body.ribbit .navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-family: 'Red Hat Display', sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    padding: 11px 15px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+body.ribbit :not(.no-theme) .navbar .navbar-nav>.active>a, body.ribbit :not(.no-theme) .navbar .navbar-nav>.active>a:hover, body.ribbit :not(.no-theme) .navbar .navbar-nav>.active>a:focus, body.ribbit :not(.no-theme) .navbar .navbar-nav>li>a:hover, body.ribbit :not(.no-theme) .navbar-default .navbar-nav>.open>a, body.ribbit :not(.no-theme) .navbar-default .navbar-nav>.open>a:hover, body.ribbit :not(.no-theme) .navbar-default .navbar-nav>.open>a:focus {
+	color: #51449b;
+    text-decoration: none;
+    font-weight: 900;
+    background: #fff;
+}
+
+.navbar-default .navbar-nav>.dropdown>a .caret {
+    display: none;
+}
+
+#MPButtonBar .dropdown-menu {
+    min-width: 250px;
+}
+
+body.ribbit #MPButtonBar .dropdown-menu li a {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: normal;
+    color: #58595b;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body.ribbit #MPButtonBar .dropdown-menu>li>a:hover, body.ribbit #MPButtonBar .dropdown-menu>li>a:focus, body.ribbit #MPButtonBar .dropdown-menu li a:hover, body.ribbit #MPButtonBar .dropdown-menu .active>li>a:hover, body.ribbit #MPButtonBar .dropdown-menu>li>a:focus {
+    background-color: #fff;
+    text-decoration: none;
+    color: #d51e46;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#MPOuterMost.full #HEADER, #MPOuterMost.full #BreadCrumb, #MPOuterMost.full #FOOTER, #MPOuterMost.full #MPFooterLinkContent, #MPOuterMost.full #MPButtonBar {
+    margin: 0 auto;
+    max-width: 1300px;
+    width: auto;
+}
+
+#MPSearchBlock, #MPFooterLink {
+	display: none;
+}
+
+body.ribbit #MPOuterFooter {
+    margin-top: auto;
+	padding: 0;
+}
+
+#FOOTER, .Footer.col-md-12, #FooterContent .col-md-3, #FooterContent .col-md-6, #FooterContent > .row.row-wide {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#FOOTER {
+	width: 100%;
+    background: #679cd3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer_logo {
+	margin-bottom:20px;
+}
+
+.social {
+	margin-bottom: 25px;
+}
+
+.footer_title {
+	letter-spacing: 1px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+a.footer_email, a.footer_email:link, a.footer_email:visited, a.footer_email:active, a.footer_email:hover {
+	color:#ffffff;
+	font-weight: 400;
+}
+
+a.quicklink, a.quicklink:link, a.quicklink:visited, a.quicklink:active, a.quicklink:hover {
+	text-transform: uppercase;
+	color:#ffffff;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+a.social_media, a.social_media:link, a.social_media:visited, a.social_media:active {
+	color: #fff;
+    font-weight: normal;
+    text-decoration: none !important;
+    border-radius: 50%;
+    border: #fff solid 2px;
+    padding: 8px 8px 7px;
+    display: inline-block;
+    background: #679cd3;
+    margin-right: 2px;
+}
+
+a.social_media:hover {
+	font-weight: normal;
+	text-decoration: none;
+	background: #d51e46;
+	border: #d51e46 solid 2px;
+	color:#ffffff;
+}
+
+#MPOuterFooter::after {
+    content: none;
+}
